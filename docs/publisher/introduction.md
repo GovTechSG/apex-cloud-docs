@@ -13,18 +13,16 @@ Read-up the documentations and **access API Manager** via the link to get starte
 
 ## Create and Publish APIs
 
-[!ref](./create-api.md)
-[!ref](./publish-api.md)
-[!ref](./configue-api-security-policies.md)
-[!ref](./bridging-apis.md)
-[!ref](./build-in-test.md)
+[!ref](/create-api.md)
+[!ref](/publish-api.md)
+[!ref](/bridging-apis.md)
 
 ## Manage and Monitor APIs
 
-[!ref](./api-versioning.md)
-[!ref](./manage-access-to-apis.md)
-[!ref](./monitor-and-logs.md)
+[!ref](/api-versioning.md)
+[!ref](/manage-access-to-apis.md)
+[!ref](/monitor-and-logs.md)
 
 ## Others
 
-[!ref](./trusted-ca-list.md)
+[!ref](/trusted-ca-list.md)

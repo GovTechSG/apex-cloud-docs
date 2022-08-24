@@ -6,4 +6,5 @@
   -
 - **Publisher**
   - [Introduction](docs/publisher/introduction.md)
-  - [CreateAPI](docs/publisher/create-api.md)
+  - [Create API](docs/publisher/create-api.md)
+  - [Publishe API](docs/publisher/publish-api.md)

@@ -8,7 +8,7 @@
    - **Import WADL API**: Import an API in Web Application Description Language (WADL) format.
    - **Import WSDL API**: Import an API in Web Application Description Language (WADL) format from URL.
 
-![Backend API](./image/create-api/import-dialog.jpg)
+![import-dialog](./image/create-api/import-dialog.jpg)
 
 3. In the import API dialog, complete the following:
 
@@ -18,7 +18,7 @@
 - **Organization**: Select the organization from the list.
 - **Authentication**: (WSDL API only) Enter a User name and Password if required.
 
-![Backend API](./image/create-api/backend-api.jpg)
+![backend-api](./image/create-api/backend-api.jpg)
 
 4. Click import and select the API created.
 
@@ -35,7 +35,7 @@ Note:
 
 2. Click **New API > New**.
 
-![Backend API](./image/create-api/manual-import.jpg)
+![manual-import](./image/create-api/manual-import.jpg)
 
 3. In the **API tab**, complete the following:
 
@@ -49,7 +49,7 @@ Note:
    - **Description**: Click the Edit tab, and enter an optional description for the API.
    - **DGP Sub System ID**: Enter DGP ID. (To be added)
 
-![Backend API](./image/create-api/api-tab.jpg)
+![api-tab](./image/create-api/api-tab.jpg)
 
 ### Create REST API methods
 
@@ -69,7 +69,7 @@ Note:
    - **REQUIRED**: Select whether the parameter is required. Defaults to No.
    - **ALLOW MULTIPLE**: Select whether multiple parameters are allowed. Defaults to No.
 
-![Backend API](./image/create-api/api-method-tab.jpg)
+![api-method-tab](./image/create-api/api-method-tab.jpg)
 
 3. To specify **content types** that can be consumed by the API method, click the plus (+) button in the Consumes content-type section, and enter the content type.
 
@@ -92,4 +92,4 @@ Note:
    - **Export API**: Import this into another API Manager environment as a back-end API.
    - **Download original API description**: Downloads a copy of the original REST API definition.
 
-![Backend API](./image/create-api/api-lifecycle.jpg)
+![api-lifecycle](./image/create-api/api-lifecycle.jpg)
