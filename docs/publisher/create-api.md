@@ -1,8 +1,4 @@
-# Create API
-
-This section walks you through the steps to create APIs.
-
-## Create REST API (Backend API)
+# Create REST API (Backend)
 
 ### Import using swagger file or WADL file / url
 
@@ -14,7 +10,7 @@ This section walks you through the steps to create APIs.
 
 ![Backend API](./image/create-api-import-dialog.jpg)
 
-3. On the Import API dialog, complete the following:
+3. In the import API dialog, complete the following:
 
 - **Source**: Select the source type from the list.
 - **File or URL**: Click the browse button to select the definition file, or enter the URL.
@@ -24,13 +20,14 @@ This section walks you through the steps to create APIs.
 
 ![Backend API](./image/create-api-backend-api.jpg)
 
-4. Once imported, the information will be display in the **API tab** and only the API name can be changed.
+4. Select the API created.
+
+5. The information will be display in the **API tab** and only the API name can be changed.
 
 Note:
 
+- **Do not use spaces** or the **URL encoded %20** in the **base path URL**.
 - Swagger and WADL API is displayed as read-only in API Manager after the REST API is imported.
-- Do not use spaces or the URL encoded %20 in the base path URL.
-- Web service schemas is protected by chosen front-end API security policies. Appropriate key /credentials is required to reach the WSDL.
 
 ### Manually register a new back-end REST API
 
@@ -40,7 +37,7 @@ Note:
 
 ![Backend API](./image/create-api-manual.jpg)
 
-3. In the **API tab**, complete the following general details:
+3. In the **API tab**, complete the following:
 
    - **API name**: Enter a required name for the API.
    - **Service type**: Default to REST.
