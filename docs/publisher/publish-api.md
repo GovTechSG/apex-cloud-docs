@@ -52,9 +52,9 @@ Configuration of the outbound request settings between the API Gateway and the b
    - [API Key authentication](#api-key-authentication)
      ![outbound-advance](./image/publish-api/outbound-simple.jpg)
 4. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select the request policy when necessary.
-   - [Generate_AWS_SigV4](#generateawssigv4)
-   - [Verify_JWT](#verifyjwt-to-be-updated)
-   - [Verify_JWT_And_Generate_AWS_SigV4](#verifyjwtandgenerateawssigv4)
+   - [Generate_AWS_SigV4](#generate-aws-sigv4)
+   - [Verify_JWT](#verify-jwt-to-be-updated)
+   - [Verify_JWT_And_Generate_AWS_SigV4](#verify-jwt-and-generate-aws-sigv4)
      ![outbound-advance](./image/publish-api/outbound-advance.jpg)
 5. Click **Apply**.
 
@@ -62,7 +62,7 @@ Note:
 
 - Advance option can be use in situation where additional headers (e.g. client ID and secret) are required.
 
-### Generate_AWS_SigV4
+### Generate AWS SigV4
 
 Generate_AWS_SigV4 generates AWS signature, and adds Authorization and amzdate to the headers in the outbound between APEX-cloud gateway and AWS gateway. See https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html for AWS Signature Version 4 signing process.
 
@@ -91,9 +91,9 @@ Note:
 - Empty string is the default value if the params.headers value is null or undefiend. This may cause the signature generated to be invalid.
 - Additional headers value need to be present. Else, there will be error generating the signature.
 
-### Verify_JWT (To be updated)
+### Verify JWT (To be updated)
 
-### Verify_JWT_And_Generate_AWS_SigV4
+### Verify JWT And Generate AWS SigV4
 
 This policy combined both Veryify_JWT and Generate_AWS_SigV4 as the authentication between gateway and client gateway.
 
