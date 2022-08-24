@@ -1,6 +1,6 @@
 # Create REST API (Backend)
 
-### Import using swagger file or WADL file / url
+## Import using swagger file or WADL file / url
 
 1. Click the **API > Backend API** view in API Manager.
 2. Click **New API** and select one of the following:
@@ -29,7 +29,7 @@ Note:
 - **Do not use spaces** or the **URL encoded %20** in the **base path URL**.
 - Swagger and WADL API is displayed as read-only in API Manager after the REST API is imported.
 
-### Manually register a new back-end REST API
+## Manually register a new back-end REST API
 
 1. Click the **API > Backend API** view in API Manager.
 
@@ -51,7 +51,7 @@ Note:
 
 ![api-tab](./image/create-api/api-tab.jpg)
 
-### Create REST API methods
+## Create REST API methods
 
 1. In the **API Methods tab**, complete the following:
 
