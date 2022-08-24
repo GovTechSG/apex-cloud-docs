@@ -6,7 +6,7 @@
 - **Publisher**
   - [Introduction](docs/publisher/introduction.md)
   - [Create API](docs/publisher/create-api.md)
-  - [Publishe API](docs/publisher/publish-api.md)
+  - [Publish API](docs/publisher/publish-api.md)
   - [Bridging API](docs/publisher/bridging-apis.md)
   - [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
   - [API Versioning](docs/publisher/api-versioning.md)
