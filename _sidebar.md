@@ -3,8 +3,11 @@
 - **Developers**
   - [Introduction](docs/dev/introduction.md)
   - [Applications](docs/dev/applications.md)
-  -
 - **Publisher**
   - [Introduction](docs/publisher/introduction.md)
   - [Create API](docs/publisher/create-api.md)
   - [Publishe API](docs/publisher/publish-api.md)
+  - [Bridging ApI](docs/publisher/bridging-apis.md)
+  - [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
+  - [API Versioning](docs/publisher/api-versioning.md)
+  - [Monitor and Logs](docs/publisher/monitor-and-logs.md)

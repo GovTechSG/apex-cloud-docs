@@ -45,17 +45,18 @@ Configuration for inbound request settings between the client and the API Gatewa
 Configuration of the outbound request settings between the API Gateway and the backend services:
 
 1. Select the **Outbound** tab.
-2. Select an **authentication profile** for the backend services.
+2. Validate **Backend service URL** and change if necessary.
+3. Select an **authentication profile** for the backend services.
    - [No Authentication](#no-authentication)
    - [HTTP Basic authentication](#http-basic-authentication)
    - [API Key authentication](#api-key-authentication)
      ![outbound-advance](./image/publish-api/outbound-simple.jpg)
-3. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select respect request policy when necessary.
+4. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select respect request policy when necessary.
    - [Request Policy - Generate_AWS_SigV4](#request-policy---generateawssigv4)
    - [Request Policy - Verify_JWT](#request-policy---verifyjwt-to-be-updated)
    - [Request Policy - Verify_JWT_And_Generate_AWS_SigV4](#request-policy---verifyjwtandgenerateawssigv4)
      ![outbound-advance](./image/publish-api/outbound-advance.jpg)
-4. Click **Apply**.
+5. Click **Apply**.
 
 Note:
 
@@ -149,7 +150,7 @@ Alternatively, testing can also be done in API Catalog.
 2. **Select API**
 3. Click **Manage Selected** and select any of the following
    - **Unpublish API(s)**.
-   - **Delete and Update** API(s). (TODO: to check. api manager do not see the update option.)
+   - **Delete and Update** API(s).
    - **Grant access** to organisation(s). Refer to [Manage access to APIs](docs/publisher/manage-access-to-apis/).
    - **Export API(s)** to .dat extension.
 
