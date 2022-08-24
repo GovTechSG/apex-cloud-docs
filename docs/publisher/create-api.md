@@ -1,18 +1,18 @@
 # Create API
 
-This section walks you through the steps to create APIs. After API is created, follow the steps in [publish API](/publisher/publish-api/) to expose the it publicly for consumption.
+This section walks you through the steps to create APIs.
 
 ## Create REST API (Backend API)
 
-### Import an existing back-end REST API
+### Import using swagger file or WADL file / url
 
 1. Click the **API > Backend API** view in API Manager.
 2. Click **New API** and select one of the following:
-   - **Import Swagger API**: Import an API in Swagger format in JSON format only.
+   - **Import Swagger API**: Import an API in Swagger (OpenAPI Specification) format.
    - **Import WADL API**: Import an API in Web Application Description Language (WADL) format.
    - **Import WSDL API**: Import an API in Web Application Description Language (WADL) format from URL.
 
-![Backend API](./image/create-api-backend-api.jpg)
+![Backend API](./image/create-api-import-dialog.jpg)
 
 3. On the Import API dialog, complete the following:
 
@@ -22,7 +22,7 @@ This section walks you through the steps to create APIs. After API is created, f
 - **Organization**: Select the organization from the list.
 - **Authentication**: (WSDL API only) Enter a User name and Password if required.
 
-![Backend API](./image/create-api-import-dialog.jpg)
+![Backend API](./image/create-api-backend-api.jpg)
 
 4. Once imported, the information will be display in the **API tab** and only the API name can be changed.
 
@@ -59,8 +59,6 @@ Note:
 
 ### Create REST API methods
 
-![Backend API](./image/create-api-api-method-tab.jpg)
-
 1. On the **API Methods tab**, complete the following:
 
    - **Method Name**: Enter a required name for the API method, and enter an optional Method summary.
@@ -73,24 +71,23 @@ Note:
    - **NAME**: Enter a required name for the parameter.
    - **DESCRIPTION**: Enter an optional description for the parameter.
    - **TYPE**: Select the parameter type. Defaults to query.
-     !!!Warning
-     The Swagger specification only allows a method to have one body parameter.
-     !!!
    - **DATA TYPE**: Select the parameter data type. Defaults to string.
    - **REQUIRED**: Select whether the parameter is required. Defaults to No.
    - **ALLOW MULTIPLE**: Select whether multiple parameters are allowed. Defaults to No.
 
-3. To specify content types that can be consumed by the API method, click the plus (+) button in the Consumes content-type section, and enter the content type.
+![Backend API](./image/create-api-api-method-tab.jpg)
 
-4. To specify response codes that can be produced by the API method, click the plus (+) button in the Response codes section, and select the response codes.
+3. To specify **content types** that can be consumed by the API method, click the plus (+) button in the Consumes content-type section, and enter the content type.
 
-5. Click Add to add the new API method.
+4. To specify **response codes** that can be produced by the API method, click the plus (+) button in the Response codes section, and select the response codes.
 
-6. Create the REST API data model (Optional): Model describes the payload of the api and the return data of the API.
+5. Click **Add** to **add the new API method**.
 
-!!!Warning
-Data model can only be add / edit when you create REST API manually. However, it will only be read-only for imported REST API. If edit is required, clone the API as described in the next section.
-!!!
+6. (Optional) Create the REST API data model: Model describes the payload of the api and the return data of the API.
+
+Note:
+
+- Data model can only be add / edit when you create REST API manually. However, it will only be read-only for imported REST API. If edit is required, clone the API as described in the next section.
 
 ## Manage Backend API Lifecycle
 
