@@ -13,12 +13,12 @@ Read-up the documentations and **access API Manager** to get started!
 
 ## Create and Publish APIs
 
-[Create API](/publisher/create-api.md)
-[Publish API](/publisher/publish-api.md)
-[Bridging API](/publisher/bridging-apis.md)
+- [Create API](docs/publisher/create-api)
+- [Publish API](docs/publisher/publish-api.md)
+- [Bridging API](docs/publisher/bridging-apis.md)
 
 ## Manage and Monitor APIs
 
-[API Versioning](/publisher/api-versioning.md)
-[Manage Access To APIs](/publisher/manage-access-to-apis.md)
-[Monitor and Logs](/publisher/monitor-and-logs.md)
+- [API Versioning](docs/publisher/api-versioning.md)
+- [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
+- [Monitor and Logs](docs/publisher/monitor-and-logs.md)

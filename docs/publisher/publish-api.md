@@ -150,7 +150,7 @@ Alternatively, testing can also be done in API Catalog.
 3. Click **Manage Selected** and select any of the following
    - **Unpublish API(s)**.
    - **Delete and Update** API(s). (TODO: to check. api manager do not see the update option.)
-   - **Grant access** to organisation(s). Refer to [Manage access to APIs](/publisher/manage-access-to-apis/).
+   - **Grant access** to organisation(s). Refer to [Manage access to APIs](docs/publisher/manage-access-to-apis/).
    - **Export API(s)** to .dat extension.
 
 TODO:
