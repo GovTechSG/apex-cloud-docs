@@ -1,11 +1,9 @@
-# Bridging of APIs (Connection from APEX Cloud to external gateway)
-
-APEX API Publisher Portal supports exposing APIs in internet (public) but the backends services are hosted in intranet (SG-Net) or vice versa via APEX onprem. This section will walk you through the configuration required.
-
-## Backend hosted in Intranet and exposing in Internet
+# Bridging of APIs
 
 - https://manage.api.gov.sg/home - Internet API Manager
 - https://manage.int.api.gov.sg/home - Intranet API Manager
+
+## Backend hosted in Intranet and exposing in Internet
 
 1. Internet API Manager (Ext): [Create](docs/publisher/create-api.md) and [Publish](docs/publisher/publish-api.md) API.
 

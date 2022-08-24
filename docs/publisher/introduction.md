@@ -21,4 +21,4 @@ Read-up the documentations and **access API Manager** to get started!
 
 - [API Versioning](docs/publisher/api-versioning.md)
 - [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
-- [Monitor and Logs](docs/publisher/monitor-and-logs.md)
+- [Monitor](docs/publisher/monitor.md)
