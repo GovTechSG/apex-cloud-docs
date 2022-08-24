@@ -50,11 +50,18 @@ Configuration of the outbound request settings between the API Gateway and the b
    - [HTTP Basic authentication](#http-basic-authentication)
    - [API Key authentication](#api-key-authentication)
      ![outbound-advance](./image/publish-api/outbound-simple.jpg)
-3. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Advance option can be use in situation where additional headers (e.g. client ID and secret) are required.
-   ![outbound-advance](./image/publish-api/outbound-advance.jpg)
+3. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select respect request policy when necessary.
+   - [Request Policy - Generate_AWS_SigV4](#request-policy---generateawssigv4)
+   - [Request Policy - Verify_JWT](#request-policy---verifyjwt-to-be-updated)
+   - [Request Policy - Verify_JWT_And_Generate_AWS_SigV4](#request-policy---verifyjwtandgenerateawssigv4)
+     ![outbound-advance](./image/publish-api/outbound-advance.jpg)
 4. Click **Apply**.
 
-### Additional Setting: Request Policy - Generate_AWS_SigV4
+Note:
+
+- Advance option can be use in situation where additional headers (e.g. client ID and secret) are required.
+
+### Request Policy - Generate_AWS_SigV4
 
 Generate_AWS_SigV4 generates AWS signature, and adds Authorization and amzdate to the headers in the outbound between APEX-cloud gateway and AWS gateway. See https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html for AWS Signature Version 4 signing process.
 
@@ -68,7 +75,7 @@ Generate_AWS_SigV4 generates AWS signature, and adds Authorization and amzdate t
    - **aws-service** e.g. execute-api
    - **aws-host**: AWS domain name or endpoint.
    - **aws-region**: AWS region.
-   - **aws-additional-signed-headers**: Additional headers that required to be signed e.g. x-apigw-api-id
+   - **aws-additional-signed-headers**: (Optional) Additional headers that required to be signed e.g. x-apigw-api-id
    ```
    aws-additional-signed-headers: header1;header2;header3
    header1: value1
@@ -83,9 +90,9 @@ Note:
 - Empty string is the default value if the params.headers value is null or undefiend. This may cause the signature generated to be invalid.
 - Additional headers value need to be present. Else, there will be error generating the signature.
 
-### Additional Setting: Request Policy - Verify_JWT (To be updated)
+### Request Policy - Verify_JWT (To be updated)
 
-### Additional Setting: Request Policy - Verify_JWT_And_Generate_AWS_SigV4 (To be updated)
+### Request Policy - Verify_JWT_And_Generate_AWS_SigV4
 
 This policy combined both Veryify_JWT and Generate_AWS_SigV4 as the authentication between gateway and client gateway.
 
@@ -146,6 +153,7 @@ Alternatively, testing can also be done in API Catalog.
    - **Grant access** to organisation(s). Refer to [Manage access to APIs](/publisher/manage-access-to-apis/).
    - **Export API(s)** to .dat extension.
 
+TODO:
 // add update api
 // the updated version should show in the app
 // only active will be presented
