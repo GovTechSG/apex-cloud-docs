@@ -1,4 +1,4 @@
-# Published API (Frontend API)
+# Publish API (Frontend API)
 
 ## Create New API
 
@@ -51,10 +51,10 @@ Configuration of the outbound request settings between the API Gateway and the b
    - [HTTP Basic authentication](#http-basic-authentication)
    - [API Key authentication](#api-key-authentication)
      ![outbound-advance](./image/publish-api/outbound-simple.jpg)
-4. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select respect request policy when necessary.
-   - [Request Policy - Generate_AWS_SigV4](#request-policy---generateawssigv4)
-   - [Request Policy - Verify_JWT](#request-policy---verifyjwt-to-be-updated)
-   - [Request Policy - Verify_JWT_And_Generate_AWS_SigV4](#request-policy---verifyjwtandgenerateawssigv4)
+4. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select the request policy when necessary.
+   - [Request Policy - Generate_AWS_SigV4](#request-policy---generate_aws_sigv4)
+   - [Request Policy - Verify_JWT](#request-policy---verify_jwt-to-be-updated)
+   - [Request Policy - Verify_JWT_And_Generate_AWS_SigV4](#request-policy---verify_jwt_and_generate_aws_sigv4)
      ![outbound-advance](./image/publish-api/outbound-advance.jpg)
 5. Click **Apply**.
 
@@ -151,7 +151,7 @@ Alternatively, testing can also be done in API Catalog.
 3. Click **Manage Selected** and select any of the following
    - **Unpublish API(s)**.
    - **Delete and Update** API(s).
-   - **Grant access** to organisation(s). Refer to [Manage access to APIs](docs/publisher/manage-access-to-apis/).
+   - **Grant access** to organisation(s). Refer to [Manage access to APIs](docs/publisher/manage-access-to-apis.md).
    - **Export API(s)** to .dat extension.
 
 TODO:

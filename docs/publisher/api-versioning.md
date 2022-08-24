@@ -14,10 +14,10 @@ TODO: Add image.
 
 ## Host same API with different version
 
-1. Create [new api](docs/publisher/create-api/) (backend api).
+1. Create [new api](docs/publisher/create-api.md) (backend api).
 
 2. Update path to specify the version (e.g. /eservice/ndi/v1]) for the older api version.
 
-3. Specify the version in the path (e.g. /eservice/ndi/v2]) when [publish api](docs/publisher/publish-api/).
+3. Specify the version in the path (e.g. /eservice/ndi/v2]) when [publish api](docs/publisher/publish-api.md).
 
 TODO: Add image.

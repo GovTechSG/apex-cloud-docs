@@ -1,4 +1,4 @@
-# Bridging of APIs
+# Bridging API
 
 - https://manage.api.gov.sg/home - Internet API Manager
 - https://manage.int.api.gov.sg/home - Intranet API Manager
