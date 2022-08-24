@@ -1,6 +1,8 @@
 - **Home**
-  * [Welcome](docs/home.md)
+  - [Welcome](docs/home.md)
 - **Developers**
-  * [Introduction](docs/dev/introduction.md)
-  * [Applications](docs/dev/applications.md)
-  *
+  - [Introduction](docs/dev/introduction.md)
+  - [Applications](docs/dev/applications.md)
+  -
+- **Publisher**
+  - [Introduction](docs/publisher/introduction.md)
