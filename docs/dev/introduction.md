@@ -1,7 +1,7 @@
 # Introduction to APEX API Developer Portal
 
 APEX API Developer Portal is a self-service web-based portal that enables API consumers to consume APIs that are listed.
-You (as a developer) can register and manage your user profile, register applications, manage application credentials, browse APIs and supporting documentation, monitor application API usage, and so on.  
+You (as a developer) can register and manage your user profile, register applications, manage application credentials, browse APIs and supporting documentation, monitor application API usage, and so on.
 
 ## Getting Started
 
