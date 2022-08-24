@@ -22,7 +22,3 @@ Read-up the documentations and **access API Manager** via the link to get starte
 [!ref](/api-versioning.md)
 [!ref](/manage-access-to-apis.md)
 [!ref](/monitor-and-logs.md)
-
-## Others
-
-[!ref](/trusted-ca-list.md)
