@@ -8,7 +8,7 @@
    - **Import WADL API**: Import an API in Web Application Description Language (WADL) format.
    - **Import WSDL API**: Import an API in Web Application Description Language (WADL) format from URL.
 
-![Backend API](./image/create-api-import-dialog.jpg)
+![Backend API](./image/create-api/import-dialog.jpg)
 
 3. In the import API dialog, complete the following:
 
@@ -18,9 +18,9 @@
 - **Organization**: Select the organization from the list.
 - **Authentication**: (WSDL API only) Enter a User name and Password if required.
 
-![Backend API](./image/create-api-backend-api.jpg)
+![Backend API](./image/create-api/backend-api.jpg)
 
-4. Select the API created.
+4. Click import and select the API created.
 
 5. The information will be display in the **API tab** and only the API name can be changed.
 
@@ -35,7 +35,7 @@ Note:
 
 2. Click **New API > New**.
 
-![Backend API](./image/create-api-manual.jpg)
+![Backend API](./image/create-api/manual-import.jpg)
 
 3. In the **API tab**, complete the following:
 
@@ -52,18 +52,18 @@ Note:
    - **Description**: Click the Edit tab, and enter an optional description for the API.
    - **DGP Sub System ID**: Enter DGP ID. (To be added)
 
-![Backend API](./image/create-api-api-tab.jpg)
+![Backend API](./image/create-api/api-tab.jpg)
 
 ### Create REST API methods
 
-1. On the **API Methods tab**, complete the following:
+1. In the **API Methods tab**, complete the following:
 
    - **Method Name**: Enter a required name for the API method, and enter an optional Method summary.
    - **Verb**: Enter a required HTTP verb for the API method. Defaults to GET.
    - **Path**: Enter the path for the method. Defaults to /.
    - **Description**: Click the Edit tab, and enter an optional description for the API.
 
-2. to add a parameter exposed by the API method, click the add button in the **PARAMETERS** section, and complete the following:
+2. To add a parameter exposed by the API method, click the add button in the **PARAMETERS** section, and complete the following:
 
    - **NAME**: Enter a required name for the parameter.
    - **DESCRIPTION**: Enter an optional description for the parameter.
@@ -72,7 +72,7 @@ Note:
    - **REQUIRED**: Select whether the parameter is required. Defaults to No.
    - **ALLOW MULTIPLE**: Select whether multiple parameters are allowed. Defaults to No.
 
-![Backend API](./image/create-api-api-method-tab.jpg)
+![Backend API](./image/create-api-api/method-tab.jpg)
 
 3. To specify **content types** that can be consumed by the API method, click the plus (+) button in the Consumes content-type section, and enter the content type.
 
@@ -94,3 +94,5 @@ Note:
    - **Clone API**: Clone a back-end API imported from a WSDL-based web service.
    - **Export API**: Import this into another API Manager environment as a back-end API.
    - **Download original API description**: Downloads a copy of the original REST API definition.
+
+![Backend API](./image/create-api-api/api-lifecycle.jpg)
