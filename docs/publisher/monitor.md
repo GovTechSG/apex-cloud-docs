@@ -1,6 +1,6 @@
 # Monitor
 
-Both **APIs** or **Applications** are able to monitor the number of messages, successes, failures, and average processing time per-invoked client application, over a specified time range. Refer to https://docs.axway.com/bundle/axway-open-docs/page/docs/apim_administration/apimgr_admin/api_mgmt_monitor/index.html for more information.
+Both **APIs** or **Applications** are able to monitor the number of messages, successes, failures, and average processing time per-invoked client application, over a specified time range.
 
 ## Monitoring metrics
 
@@ -15,7 +15,7 @@ Both **APIs** or **Applications** are able to monitor the number of messages, su
 - When you **select specific API**, You are able to **select all or the selected method**.
 - When the **Show breakdown per API method option** is selected, the table on the bottom right displays totals grouped by **API Name** and **Method Name**. Else, the table displays total grouped by **API Name** only.
 
-![monitor_api](./image/monitoring/monitor_api.jpg)
+![monitor_api](./image/monitor/monitor_api.jpg)
 
 ## Monitoring > Application Usage
 
@@ -23,4 +23,6 @@ Both **APIs** or **Applications** are able to monitor the number of messages, su
 - If you **select the row** in the table, the **graph is automatically updated** to contain data for the selected row only. if no rows are selected, the chart is contain data for all the rows.
 - Unlike the display in table, the **graph will display the same data**, regardless of whether the show breakdown settings are selected.
 
-![monitor_app](./image/monitoring/monitor_app.jpg)
+![monitor_app](./image/monitor/monitor_app.jpg)
+
+Refer to https://docs.axway.com/bundle/axway-open-docs/page/docs/apim_administration/apimgr_admin/api_mgmt_monitor/index.html for more information.
