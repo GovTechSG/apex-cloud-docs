@@ -43,9 +43,6 @@ Note:
    - **Service type**: Default to REST.
    - **Organization**: Select a required organization for the API.
    - **Base path URL**: Enter a resource path. Defaults to http://basepath.org.
-     !!!Warning
-     Do not use spaces or the URL encoded %20 in the base path URL.
-     !!!
    - **Resource path**: Enter a resource path for the API. Defaults to /api.
    - **API version**: Enter an optional version number for the API. Defaults to 1.0.
    - **Summary**: Enter an optional summary for the API to display in the API Catalog.
@@ -72,7 +69,7 @@ Note:
    - **REQUIRED**: Select whether the parameter is required. Defaults to No.
    - **ALLOW MULTIPLE**: Select whether multiple parameters are allowed. Defaults to No.
 
-![Backend API](./image/create-api-api/method-tab.jpg)
+![Backend API](./image/create-api/api-method-tab.jpg)
 
 3. To specify **content types** that can be consumed by the API method, click the plus (+) button in the Consumes content-type section, and enter the content type.
 
@@ -95,4 +92,4 @@ Note:
    - **Export API**: Import this into another API Manager environment as a back-end API.
    - **Download original API description**: Downloads a copy of the original REST API definition.
 
-![Backend API](./image/create-api-api/api-lifecycle.jpg)
+![Backend API](./image/create-api/api-lifecycle.jpg)
