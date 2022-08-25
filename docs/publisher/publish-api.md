@@ -4,7 +4,7 @@
 
 ### Import from Backend API
 
-1. Click the **API > Frontend API** in API Manager.
+1. Click **API > Frontend API** in API Manager.
 2. Click **New API > New API from backend API**.
 
 ![import-backend-api](./image/publish-api/import-backend-api.jpg)
@@ -30,10 +30,10 @@
 
 Configuration for inbound request settings between the publisher and the API Gateway:
 
-1. Select the **Inbound** tab.
+1. Select **Inbound** tab.
 2. Edit **Resource** path for the API.
    ![inbound-tab](./image/publish-api/inbound-tab.jpg)
-3. Select API Key from the **Inbound Security** list.
+3. Select API Key from **Inbound Security** list.
    - **API key field name**: Enter name for API key field in the inbound request.
    - **API key location**: Select Request Headers or Query string/form body.
    - **Remove credentials on success**: Default to enable it. Inbound authorization header will be removed to use different authentication method for the outbound to the backend services.
@@ -44,7 +44,7 @@ Configuration for inbound request settings between the publisher and the API Gat
 
 Configuration of the outbound request settings between the API Gateway and the backend services:
 
-1. Select the **Outbound** tab.
+1. Select **Outbound** tab.
 2. Validate **Backend service URL** and change if necessary.
 3. Select an **authentication profile** for the backend services.
    - [No Authentication](#no-authentication)
@@ -99,7 +99,7 @@ header3: value3
 
 Steps
 
-1. Select the **Outbound** tab.
+1. Select **Outbound** tab.
 2. Choose **No Authentication** in **authentication profile**
 3. Select **Generate_AWS_SigV4** in **Request Policy**.
 4. Expand **pre-method override** > Click **(+) sign** > Select **API**.
@@ -123,28 +123,28 @@ Note:
 
 ### Verify JWT
 
-Verify_JWT provides **oauth2.1** authorization to **verify Authorization header**. Consumer's application should **onboard to OAuth2.1** via [Developer Portal](https://www-dev.api.developer.tech.gov.sg/) to access the API that uses JWT_Verify as the request policy.
+Verify_JWT provides **oauth2.1** authorization to **verify Authorization header**. Consumer's application should **onboard to OAuth2.1** via [Developer Portal](https://www-dev.api.developer.tech.gov.sg/) to access **API(s) that use JWT_Verify as the request policy**.
 
 Guide to test your API with Verify_JWT.
 
-1. **Onboard** to OAuth2.1.
-2. **Add API** (With Verify_JWT)
+1. Onboard to **OAuth2.1**.
+2. Add **API (With Verify_JWT)**.
 3. Get **Authorization Token**. Refer to (TODO: Update the link or document name) on the guide to get the token.
-4. Add the **Authorization token** with **ApiKey** in the header to **access the API**.
+4. Add **Authorization token** with **ApiKey** in the **header** to **access the API**.
 
 ![verify-jwt-inbound-header](./image/publish-api/verify-jwt-inbound-header.jpg)
 
 ### Verify JWT And Generate AWS SigV4
 
-This policy combined both Veryify_JWT and Generate_AWS_SigV4 as the authentication between gateway and client gateway.
+This policy **combined** both **Veryify_JWT** and **Generate_AWS_SigV4** as the authentication between gateway and publisher gateway.
 
 ## API Method
 
 API Method display the list of method(s) and it provides build-in test to check if APIs is functioning as expected before publication.
 
 1. Click **API > Frontend API view**.
-2. **Select API > click API Method** tab
-3. Click **Try Method** to perform the test for any endpoint(s) specified
+2. Select**API** > click **API Method** tab.
+3. Click **Try Method** to perform the test for any endpoint(s) specified.
 
 ![method-tab](./image/publish-api/method-tab.jpg)
 
@@ -161,13 +161,13 @@ Alternatively, testing can also be done in API Catalog.
 2. Click **Manage Selected** and select **Publish**.
    ![publish-api](./image/publish-api/publish-api.jpg)
 3. Enter **Virtual Host** and click **Publish**.
-4. Published API will be able to access via https://{virtual-host}/{prefix-path}/{method-path}
+4. Published API will be able to access via https://{virtual-host}/{prefix-path}/{method-path}.
 
 ## Manage Frontend API Lifecycle
 
 1. Click **API Registration > Frontend API view** in API Manager.
 2. **Select API**
-3. Click **Manage Selected** and select any of the following
+3. Click **Manage Selected** and select any of the following:
    - **Unpublish API(s)**.
    - **Delete and Update** API(s). Refer to [API versioning](docs/publisher/api-versioning.md) for more details in update API.
    - **Grant access** to organisation(s). Refer to [Manage access to APIs](docs/publisher/manage-access-to-apis.md).
