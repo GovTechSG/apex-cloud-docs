@@ -1,7 +1,5 @@
 # API and APP Monitoring
 
-Both **APIs** or **Applications** are able to monitor the number of messages, successes, failures, and average processing time per-invoked client application, over a specified time range.
-
 ## Monitoring metrics
 
 - **Messages**: The number of messages processed by the selected API or client application.
@@ -24,5 +22,3 @@ Both **APIs** or **Applications** are able to monitor the number of messages, su
 - Unlike the display in table, the **graph will display the same data**, regardless of whether the show breakdown settings are selected.
 
 ![monitor_app](./image/api-and-app-monitoring/app.jpg)
-
-Refer to https://docs.axway.com/bundle/axway-open-docs/page/docs/apim_administration/apimgr_admin/api_mgmt_monitor/index.html for more information.
