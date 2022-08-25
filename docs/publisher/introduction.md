@@ -8,8 +8,8 @@ APEX Cloud is a cloud-based centralised gateway for government agencies to expos
 
 Login to **API Manager** with your **corp pass** or **assigned login** to get started!
 
-- Internet: https://manage.api.gov.sg/home
-- Intranet: https://manage.int.api.gov.sg/home
+- [API Manager (Internet)](https://manage.api.gov.sg/home)
+- [API Manager (Intranet)](https://manage.int.api.gov.sg/home)
 
 ## Create and Publish APIs
 

@@ -86,7 +86,7 @@ No authentication is performed between the API Gateway and the backend API.
 
 ### Generate AWS SigV4
 
-Generate_AWS_SigV4 generates AWS signature, and adds Authorization and amzdate to the headers in the outbound between APEX-cloud gateway and AWS gateway. See https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html for AWS Signature Version 4 signing process.
+Generate_AWS_SigV4 generates AWS signature, and adds Authorization and amzdate to the headers in the outbound between APEX-cloud gateway and AWS gateway. See [AWS Signature Version 4 signing process](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html).
 
 Signing additional header(s) is supported by providing the header field name(s), e.g. x-apigw-api-id, as aws-additional-signed-headers and the value(s) in the header. Multiple headers are allowed using the correct format.
 
