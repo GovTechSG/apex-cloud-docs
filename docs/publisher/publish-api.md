@@ -102,7 +102,7 @@ Steps
 1. Select the **Outbound** tab.
 2. Choose **No Authentication** in **authentication profile**
 3. Select **Generate_AWS_SigV4** in **Request Policy**.
-4. **Expand pre-method override > Click + sign > Select API**.
+4. Expand **pre-method override** > Click **(+) sign** > Select **API**.
 5. Click **Edit API Proxy**.
 6. Input the necessary parameters
 
@@ -129,7 +129,7 @@ This policy combined both Veryify_JWT and Generate_AWS_SigV4 as the authenticati
 
 ## API Method
 
-API Method display the list of method and it provides build-in test to check if APIs is functioning as expected before publication.
+API Method display the list of method(s) and it provides build-in test to check if APIs is functioning as expected before publication.
 
 1. Click **API > Frontend API view**.
 2. **Select API > click API Method** tab

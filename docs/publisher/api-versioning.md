@@ -1,6 +1,6 @@
 # API Versioning
 
-1. [Create new backend API](docs/publisher/create-api.md).
+1. [Create new API](docs/publisher/create-api.md).
 
 ![1-create-backend-api](./image/api-versioning/1-create-backend-api.jpg)
 
@@ -12,15 +12,15 @@
 
 ![3-indicate-version](./image/api-versioning/3-indicate-version.jpg)
 
-4. Select the old API, click **Manage selected**, and choose **Upgrade access to newer API**.
+4. Select the old API > click **Manage selected** > choose **Upgrade access to newer API**.
 
 ![4-upgrade-existing-api](./image/api-versioning/4-upgrade-existing-api.jpg)
 
-5. In the update dialog, complete the following:
+5. In the **upgrade dialog**, complete the following:
 
 - **Upgrade to**: Choose the new API.
 - **Deprecate**: Enable it to indicate if API is deprecate.
-- **Retired**: Enable it to retired API and select date to retired API.
+- **Retired**: Enable it to retired API and select date to retired it.
   ![5-upgrade-dialog](./image/api-versioning/5-upgrade-dialog.jpg)
 
 6. Click **Upgrade**. If today's date is selected, the API will be retired immediately.
