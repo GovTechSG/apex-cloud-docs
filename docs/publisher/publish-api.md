@@ -53,7 +53,7 @@ Configuration of the outbound request settings between the API Gateway and the b
      ![outbound-advance](./image/publish-api/outbound-simple.jpg)
 4. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select the request policy when necessary.
    - [Generate_AWS_SigV4](#generate-aws-sigv4)
-   - [Verify_JWT](#verify-jwt-to-be-updated)
+   - [Verify_JWT](#verify-jwt)
    - [Verify_JWT_And_Generate_AWS_SigV4](#verify-jwt-and-generate-aws-sigv4)
      ![outbound-advance](./image/publish-api/outbound-advance.jpg)
 5. Click **Apply**.
@@ -121,7 +121,18 @@ Note:
 - Empty string is the default value if the params.headers value is null or undefiend. This may cause the signature generated to be invalid.
 - Additional headers value need to be present. Else, there will be error generating the signature.
 
-### Verify JWT (To be updated)
+### Verify JWT
+
+Verify_JWT provides oauth2.1 authorization to verify Authorization header. Consumer's application should onboard to OAuth2.1 via [Developer Portal](https://www-dev.api.developer.tech.gov.sg/) to access the API that uses JWT_Verify as the request policy.
+
+Guide to test your API with Verify_JWT.
+
+1. Onboard to OAuth.
+2. Add API (With Verify_JWT)
+3. Get Authorization Token. Refer to (TODO: Update the link or document name) on the guide to get the token.
+4. Add the Authorization token to the header with ApiKey in the header to access the API.
+
+![verify-jwt-inbound-header](./image/publish-api/verify-jwt-inbound-header.jpg)
 
 ### Verify JWT And Generate AWS SigV4
 
