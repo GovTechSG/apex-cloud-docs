@@ -123,14 +123,14 @@ Note:
 
 ### Verify JWT
 
-Verify_JWT provides oauth2.1 authorization to verify Authorization header. Consumer's application should onboard to OAuth2.1 via [Developer Portal](https://www-dev.api.developer.tech.gov.sg/) to access the API that uses JWT_Verify as the request policy.
+Verify_JWT provides **oauth2.1** authorization to **verify Authorization header**. Consumer's application should **onboard to OAuth2.1** via [Developer Portal](https://www-dev.api.developer.tech.gov.sg/) to access the API that uses JWT_Verify as the request policy.
 
 Guide to test your API with Verify_JWT.
 
-1. Onboard to OAuth.
-2. Add API (With Verify_JWT)
-3. Get Authorization Token. Refer to (TODO: Update the link or document name) on the guide to get the token.
-4. Add the Authorization token to the header with ApiKey in the header to access the API.
+1. **Onboard** to OAuth2.1.
+2. **Add API** (With Verify_JWT)
+3. Get **Authorization Token**. Refer to (TODO: Update the link or document name) on the guide to get the token.
+4. Add the **Authorization token** with **ApiKey** in the header to **access the API**.
 
 ![verify-jwt-inbound-header](./image/publish-api/verify-jwt-inbound-header.jpg)
 
