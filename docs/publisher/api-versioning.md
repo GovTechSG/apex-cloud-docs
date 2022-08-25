@@ -1,23 +1,33 @@
 # API Versioning
 
-## Version update to a published API
+1. [Create new backend API](docs/publisher/create-api.md).
 
-1. Add the **new API** to API Manager and publish it.
+![1-create-backend-api](./image/api-versioning/1-create-backend-api.jpg)
 
-2. Select the old API, click **Manage** selected, and choose **Upgrade** access to newer API.
+2. Add **API (version 2)** and [publish](docs/publisher/publish-api.md) it.
+
+![2-import-to-frontend-api](./image/api-versioning/2-import-to-frontend-api.jpg)
+
+3. Specify the version in the path (e.g. /api/v2). This is optional but it is the recommended way of creating same API with different versions.
+
+![3-indicate-version](./image/api-versioning/3-indicate-version.jpg)
+
+4. Select the old API, click **Manage selected**, and choose **Upgrade access to newer API**.
+
+![4-upgrade-existing-api](./image/api-versioning/4-upgrade-existing-api.jpg)
+
+5. In the update dialog, complete the following:
+
+- **Upgrade to**: Choose the new API.
+- **Deprecate**: Enable it to indicate if API is deprecate.
+- **Retired**: Enable it to retired API and select date to retired API.
+  ![5-upgrade-dialog](./image/api-versioning/5-upgrade-dialog.jpg)
+
+6. Click **Upgrade**. If today's date is selected, the API will be retired immediately.
+
+![6-retired-api-status](./image/api-versioning/6-retired-api-status.jpg)
 
 Note:
 
-- Old API will be depreciated. This method is only recommended for api that is backwards compatible.
-
-TODO: Add image.
-
-## Host same API with different version
-
-1. Create [new api](docs/publisher/create-api.md) (backend api).
-
-2. Update path to specify the version (e.g. /eservice/ndi/v1]) for the older api version.
-
-3. Specify the version in the path (e.g. /eservice/ndi/v2]) when [publish api](docs/publisher/publish-api.md).
-
-TODO: Add image.
+- Consumer will be able to see deprecated API(s).
+- Only Publisher will be able to view their own retired API(s).

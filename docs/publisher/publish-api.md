@@ -28,7 +28,7 @@
 
 ## Configure Inbound Request Settings
 
-Configuration for inbound request settings between the client and the API Gateway:
+Configuration for inbound request settings between the publisher and the API Gateway:
 
 1. Select the **Inbound** tab.
 2. Edit **Resource** path for the API.
@@ -62,41 +62,6 @@ Note:
 
 - Advance option can be use in situation where additional headers (e.g. client ID and secret) are required.
 
-### Generate AWS SigV4
-
-Generate_AWS_SigV4 generates AWS signature, and adds Authorization and amzdate to the headers in the outbound between APEX-cloud gateway and AWS gateway. See https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html for AWS Signature Version 4 signing process.
-
-1. Choose **No Authentication** in **authentication profile**
-2. Select **Generate_AWS_SigV4** in **Request Policy**.
-3. **Expand pre-method override > Click + sign > Select API**.
-4. Click **Edit API Proxy**.
-5. Input the necessary parameters
-   - **aws-access-key**: AWS client access key.
-   - **aws-secret-key**: AWS client secret key.
-   - **aws-service** e.g. execute-api
-   - **aws-host**: AWS domain name or endpoint.
-   - **aws-region**: AWS region.
-   - **aws-additional-signed-headers**: (Optional) Additional headers that required to be signed e.g. x-apigw-api-id
-   ```
-   aws-additional-signed-headers: header1;header2;header3
-   header1: value1
-   header2: value2
-   header3: value3
-   ```
-   ![aws-preoveride-method](./image/publish-api/aws-preoveride-method.jpg)
-6. Click **Apply**.
-
-Note:
-
-- Empty string is the default value if the params.headers value is null or undefiend. This may cause the signature generated to be invalid.
-- Additional headers value need to be present. Else, there will be error generating the signature.
-
-### Verify JWT (To be updated)
-
-### Verify JWT And Generate AWS SigV4
-
-This policy combined both Veryify_JWT and Generate_AWS_SigV4 as the authentication between gateway and client gateway.
-
 ### No Authentication
 
 No authentication is performed between the API Gateway and the backend API.
@@ -119,6 +84,49 @@ No authentication is performed between the API Gateway and the backend API.
 
 **Pass credentials as HTTP**: Select Header, Query string or Form of the API key in the outbound request.
 
+### Generate AWS SigV4
+
+Generate_AWS_SigV4 generates AWS signature, and adds Authorization and amzdate to the headers in the outbound between APEX-cloud gateway and AWS gateway. See https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html for AWS Signature Version 4 signing process.
+
+Signing additional header(s) is supported by providing the header field name(s), e.g. x-apigw-api-id, as aws-additional-signed-headers and the value(s) in the header. Multiple headers are allowed using the correct format.
+
+```
+aws-additional-signed-headers: header1;header2;header3
+header1: value1
+header2: value2
+header3: value3
+```
+
+Steps
+
+1. Select the **Outbound** tab.
+2. Choose **No Authentication** in **authentication profile**
+3. Select **Generate_AWS_SigV4** in **Request Policy**.
+4. **Expand pre-method override > Click + sign > Select API**.
+5. Click **Edit API Proxy**.
+6. Input the necessary parameters
+
+   - **aws-access-key**: AWS client access key.
+   - **aws-secret-key**: AWS client secret key.
+   - **aws-service**: AWS services e.g. execute-api.
+   - **aws-host**: AWS domain name or endpoint.
+   - **aws-region**: AWS region.
+   - **aws-additional-signed-headers**: (Optional) Additional headers that required to be signed.
+     ![aws-preoveride-method](./image/publish-api/aws-preoveride-method.jpg)
+
+7. Click **Apply**.
+
+Note:
+
+- Empty string is the default value if the params.headers value is null or undefiend. This may cause the signature generated to be invalid.
+- Additional headers value need to be present. Else, there will be error generating the signature.
+
+### Verify JWT (To be updated)
+
+### Verify JWT And Generate AWS SigV4
+
+This policy combined both Veryify_JWT and Generate_AWS_SigV4 as the authentication between gateway and client gateway.
+
 ## API Method
 
 API Method display the list of method and it provides build-in test to check if APIs is functioning as expected before publication.
@@ -131,18 +139,18 @@ API Method display the list of method and it provides build-in test to check if 
 
 Alternatively, testing can also be done in API Catalog.
 
-4. Click **API > API Catalog**.
-5. Select **API** for display.
-6. **Add authentication** required as specified.
-7. Click **Try it** to perform the test.
+1. Click **API > API Catalog**.
+2. Select **API** for display.
+3. **Add authentication** required as specified.
+4. Click **Try it** to perform the test.
 
 ## Publish API
 
 1. Click **API > Frontend API view > Select API** in API Manager.
 2. Click **Manage Selected** and select **Publish**.
+   ![publish-api](./image/publish-api/publish-api.jpg)
 3. Enter **Virtual Host** and click **Publish**.
-
-![publish-api](./image/publish-api/publish-api.jpg)
+4. Published API will be able to access via https://{virtual-host}/{prefix-path}/{method-path}
 
 ## Manage Frontend API Lifecycle
 
@@ -150,12 +158,6 @@ Alternatively, testing can also be done in API Catalog.
 2. **Select API**
 3. Click **Manage Selected** and select any of the following
    - **Unpublish API(s)**.
-   - **Delete and Update** API(s).
+   - **Delete and Update** API(s). Refer to [API versioning](docs/publisher/api-versioning.md) for more details in update API.
    - **Grant access** to organisation(s). Refer to [Manage access to APIs](docs/publisher/manage-access-to-apis.md).
    - **Export API(s)** to .dat extension.
-
-TODO:
-// add update api
-// the updated version should show in the app
-// only active will be presented
-// retired only developer will see. consumer unable to see retired apis.
