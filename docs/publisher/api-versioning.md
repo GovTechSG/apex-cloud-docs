@@ -4,15 +4,15 @@
 
 ![1-create-backend-api](./image/api-versioning/1-create-backend-api.jpg)
 
-2. Add **API (version 2)** and [publish](docs/publisher/publish-api.md) it.
+2. Import **updated API** and [publish](docs/publisher/publish-api.md) it.
 
 ![2-import-to-frontend-api](./image/api-versioning/2-import-to-frontend-api.jpg)
 
-3. Specify the version in the path (e.g. /api/v2). This is optional but it is the recommended way of creating same API with different versions.
+3. **Specify the version** in the path (e.g. /api/v2). This is optional but it is the recommended way of creating same API with different versions.
 
 ![3-indicate-version](./image/api-versioning/3-indicate-version.jpg)
 
-4. Select the old API > click **Manage selected** > choose **Upgrade access to newer API**.
+4. Select the older API > click **Manage selected** > choose **Upgrade access to newer API**.
 
 ![4-upgrade-existing-api](./image/api-versioning/4-upgrade-existing-api.jpg)
 
