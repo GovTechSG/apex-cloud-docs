@@ -21,4 +21,4 @@ Login to **API Manager** with your corp pass or assigned login to get started!
 
 - [API Versioning](docs/publisher/api-versioning.md)
 - [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
-- [Monitor](docs/publisher/monitor.md)
+- [API and APP Monitoring](docs/publisher/api-and-app-monitoring.md)

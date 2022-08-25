@@ -10,4 +10,4 @@
   - [Bridging API](docs/publisher/bridging-apis.md)
   - [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
   - [API Versioning](docs/publisher/api-versioning.md)
-  - [Monitor](docs/publisher/monitor.md)
+  - [API and APP Monitoring](docs/publisher/api-and-app-monitoring.md)
