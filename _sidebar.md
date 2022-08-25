@@ -3,7 +3,7 @@
 - **Developers**
   - [Introduction](docs/dev/introduction.md)
   - [Applications](docs/dev/applications.md)
-- **Publisher**
+- **Publishers**
   - [Introduction](docs/publisher/introduction.md)
   - [Create API](docs/publisher/create-api.md)
   - [Publish API](docs/publisher/publish-api.md)
