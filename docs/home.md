@@ -6,5 +6,5 @@ Use the navigation menu on the left to browse the documentation. You can also se
 
 Here are some suggestions to get started:
 
-[Introduction to APEX API Developer Portal](/docs/dev/introduction.md)
-[Introduction to APEX API Publisher Portal](/docs/publisher/introduction.md)
+- [Introduction to APEX API Developer Portal](/docs/dev/introduction.md)
+- [Introduction to APEX API Publisher Portal](/docs/publisher/introduction.md)
