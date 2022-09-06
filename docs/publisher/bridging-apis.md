@@ -18,7 +18,7 @@ Frontend URL (Int): https://public.int.api.gov.sg/eservice/ndi/v1/authinfo
 Backend service URL: https://public.int.api.gov.sg/eservice/ndi/v1/authinfo
 ```
 
-TODO: Add image
+<!-- TODO: Add image -->
 
 ## Backend hosted in Internet and exposing in Intranet
 
@@ -38,4 +38,4 @@ Frontend URL (Ext): https://public.api.gov.sg/eservice/ndi/v1/authinfo
 Backend service URL: https://public.api.gov.sg/eservice/ndi/v1/authinfo
 ```
 
-TODO: Add image
+<!-- TODO: Add image -->

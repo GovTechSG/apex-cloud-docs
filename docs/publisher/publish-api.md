@@ -129,7 +129,7 @@ Guide to test your API with Verify_JWT.
 
 1. Onboard to **OAuth2.1**.
 2. Add **API (With Verify_JWT)**.
-3. Get **Authorization Token**. Refer to (TODO: Update the link or document name) on the guide to get the token.
+3. Get **Authorization Token**. <!-- Refer to (TODO: Update the link or document name) on the guide to get the token. -->
 4. Add **Authorization token** with **ApiKey** in the **header** to **access the API**.
 
 ![verify-jwt-inbound-header](./image/publish-api/verify-jwt-inbound-header.jpg)
