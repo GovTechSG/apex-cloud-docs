@@ -10,8 +10,8 @@ Login to the **API Manager** with your TechPass account to get started.
 
 > If you do not have a TechPass account, or new to the API Manager, you may refer to our [onboarding guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass).
 
-- [API Manager (Internet)](https://manage.api.gov.sg/home)
-- [API Manager (Intranet)](https://manage.int.api.gov.sg/home)
+- [API Manager (Internet)](https://manage.api.developer.tech.gov.sg/home)
+- [API Manager (Intranet)](https://manage.int.api.developer.tech.gov.sg/home)
 
 ## Create and Publish APIs
 
