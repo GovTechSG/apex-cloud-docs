@@ -1,4 +1,4 @@
-# Introduction to APEX API Publisher Portal
+# Introduction to APEX Cloud API Manager
 
 APEX Cloud is a cloud-based centralised gateway for government agencies to expose their APIs to registered developers or agencies. You (as a publisher) can perform the following actions:
 
@@ -6,7 +6,9 @@ APEX Cloud is a cloud-based centralised gateway for government agencies to expos
 2. Configure security policy and manage access to the APIs.
 3. Monitor the API traffics and logs.
 
-Login to **API Manager** with your **corp pass** or **assigned login** to get started!
+Login to the **API Manager** with your TechPass account to get started.
+
+> If you do not have a TechPass account, or new to the API Manager, you may refer to our [onboarding guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass).
 
 - [API Manager (Internet)](https://manage.api.gov.sg/home)
 - [API Manager (Intranet)](https://manage.int.api.gov.sg/home)

@@ -2,7 +2,7 @@
   - [Welcome](docs/home.md)
 - **Developers**
   - [Introduction](docs/dev/introduction.md)
-  - [Applications](docs/dev/applications.md)
+  - [Creating Applications](docs/dev/applications.md)
 - **Publishers**
   - [Introduction](docs/publisher/introduction.md)
   - [Create API](docs/publisher/create-api.md)
