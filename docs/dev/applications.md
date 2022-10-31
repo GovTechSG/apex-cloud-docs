@@ -14,7 +14,6 @@ The first step to consuming APIs, is to first create an application. This can be
 found in the **Apps** tab in the menu bar.
 
 ![Image](./image/create-app-1.png)
----
 ![Image](./image/create-app-m-1.png)
 
 ## Step 2 - Creating the Application
@@ -22,7 +21,6 @@ found in the **Apps** tab in the menu bar.
 By selecting the `Create application` or `New application` button, you will be redirected to a form page that allows you to create a new application (you may also select relevant APIs that are visible to you in this step):
 
 ![Image](./image/create-app-2.png)
----
 ![Image](./image/create-app-m-2.png)
 
 | Field                | Description                                                                          |
@@ -43,7 +41,6 @@ After creating your application, it will be in the pending state, and you will n
 This is what organization admins will see in their own App view:
 
 ![Image](./image/create-app-3.png)
----
 ![Image](./image/create-app-m-3.png)
 
 > You can proceed once your application has been approved. Do check in with your own organization admins and remind them if they have yet to do so
@@ -55,11 +52,9 @@ If you are on the API Developer portal, scroll down to the API key section and s
 If you are on the API Manager, simply select the `Authentication` tab to proceed: 
 
 ![Image](./image/create-app-4.png)
----
 ![Image](./image/create-app-m-4.png)
 
 Under the Authentication tab, click the `Generate` or `New API Key` button to auto-generate a new API Key Set for your application
 
 ![Image](./image/create-app-5.png)
----
 ![Image](./image/create-app-m-5.png)
