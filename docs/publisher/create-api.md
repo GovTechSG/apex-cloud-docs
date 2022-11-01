@@ -8,7 +8,7 @@
    - **Import WADL API**: Import an API in Web Application Description Language (WADL) format.
    - **Import WSDL API**: Import an API in Web Application Description Language (WADL) format from URL.
 
-![import-dialog](./image/create-api/import-dialog.jpg)
+![import-dialog](./image/create-api/import-dialog.png)
 
 3. In the import API dialog, complete the following:
 
@@ -35,7 +35,7 @@ Note:
 
 2. Click **New API > New**.
 
-![manual-import](./image/create-api/manual-import.jpg)
+![manual-import](./image/create-api/manual-import.png)
 
 3. In the **API tab**, complete the following:
 

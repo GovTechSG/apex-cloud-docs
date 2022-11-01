@@ -7,7 +7,7 @@
 1. Click **API > Frontend API** in API Manager.
 2. Click **New API > New API from backend API**.
 
-![import-backend-api](./image/publish-api/import-backend-api.jpg)
+![import-backend-api](./image/publish-api/import-backend-api.png)
 
 3. Select an existing back-end API in the dialog, and click **Create**.
 

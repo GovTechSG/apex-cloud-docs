@@ -2,7 +2,7 @@
 
 1. [Create new API](docs/publisher/create-api.md).
 
-![1-create-backend-api](./image/api-versioning/1-create-backend-api.jpg)
+![1-create-backend-api](./image/api-versioning/1-create-backend-api.png)
 
 2. Import **updated API** and [publish](docs/publisher/publish-api.md) it.
 
