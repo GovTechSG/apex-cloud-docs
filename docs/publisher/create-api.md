@@ -26,7 +26,7 @@
 
 Note:
 
-- **Do not use spaces** or the **URL encoded %20** in the **base path URL**.
+- Do **not** use spaces or the URL encoded %20 will be appended in the base path URL.
 - Swagger and WADL API is displayed as read-only in API Manager after the REST API is imported.
 
 ## Manually register a new back-end REST API
@@ -47,7 +47,7 @@ Note:
    - **API version**: Enter an optional version number for the API. Defaults to 1.0.
    - **Summary**: Enter an optional summary for the API to display in the API Catalog.
    - **Description**: Click the Edit tab, and enter an optional description for the API.
-   - **DGP Sub System ID**: Enter DGP ID. (To be added)
+   - **DGP Sub System ID**: The System ID that your app will be under (found in Digital Governance Platform)
 
 ![api-tab](./image/create-api/api-tab.jpg)
 

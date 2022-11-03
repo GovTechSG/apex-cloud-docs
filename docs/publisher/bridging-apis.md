@@ -5,7 +5,7 @@
 1. Intranet API Manager (Int): [Create](docs/publisher/create-api.md) and [Publish](docs/publisher/publish-api.md) API.
 
 ```
-Frontend URL (Int): https://public.int.api.gov.sg/eservice/ndi/v1/authinfo
+Frontend URL (Int): https://gw.int.api.gov.sg/{agency_id}/{product_name}/v{version}/{endpoint}
 ```
 
 2. Internet API Manager (Ext): [Create](docs/publisher/create-api.md) and [Publish](docs/publisher/publish-api.md) API.
@@ -15,7 +15,7 @@ Frontend URL (Int): https://public.int.api.gov.sg/eservice/ndi/v1/authinfo
 4. Ext: Enter **Frontend URL (Int)** as **Backend service URL**.
 
 ```
-Backend service URL: https://public.int.api.gov.sg/eservice/ndi/v1/authinfo
+Backend service URL: https://gw.int.api.gov.sg/{agency_id}/{product_name}/v{version}/{endpoint}
 ```
 
 <!-- TODO: Add image -->
@@ -25,7 +25,7 @@ Backend service URL: https://public.int.api.gov.sg/eservice/ndi/v1/authinfo
 1. Internet API Manager (Ext): [Create](docs/publisher/create-api.md) and [Publish](docs/publisher/publish-api.md) API.
 
 ```
-Frontend URL (Ext): https://public.api.gov.sg/eservice/ndi/v1/authinfo
+Frontend URL (Ext): https://public.api.gov.sg/{agency_id}/{product_name}/v{version}/{endpoint}
 ```
 
 2. Intranet API Manager (Int): [Create](docs/publisher/create-api.md) and [Publish](docs/publisher/publish-api.md) API.
@@ -35,7 +35,7 @@ Frontend URL (Ext): https://public.api.gov.sg/eservice/ndi/v1/authinfo
 4. Int: Enter **Frontend URL (Ext)** as **Backend service URL**.
 
 ```
-Backend service URL: https://public.api.gov.sg/eservice/ndi/v1/authinfo
+Backend service URL: https://public.api.gov.sg/{agency_id}/{product_name}/v{version}/{endpoint}
 ```
 
 <!-- TODO: Add image -->
