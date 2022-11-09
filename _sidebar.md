@@ -3,6 +3,7 @@
 - **Developers**
   - [Introduction](docs/dev/introduction.md)
   - [Creating Applications](docs/dev/applications.md)
+  - [Onboard to OAuth2.1](doc/dev/oauth)
 - **Publishers**
   - [Introduction](docs/publisher/introduction.md)
   - [Create API](docs/publisher/create-api.md)
