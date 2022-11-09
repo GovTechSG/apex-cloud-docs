@@ -26,6 +26,6 @@ Once the application is onboard to OAuth 2.1 successfully, portal disable the fu
 
 1. **Apps** tab > **Select Application** > Click **Edit Application**
 2. View **Authentication** tab > **Oauth 2.1**
-3. Update **JWKS endpoint or callback URLs** > Click **Apply Changes**
+3. Update **JWKS endpoint** or **callback URLs** > Click **Apply Changes**
 
 ![Image](./image/oauth/update-oauth-info.png)
