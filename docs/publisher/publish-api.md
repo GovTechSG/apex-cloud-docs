@@ -33,6 +33,9 @@ Configuration for inbound request settings between the publisher and the API Gat
 1. Select **Inbound** tab.
 2. Edit **Resource** path for the API.
    ![inbound-tab](./image/publish-api/inbound-tab.jpg)
+   > The convention for `Resource path` is:
+   >
+   > https://public.api.gov.sg/{agency_id}/{product_name}/v{version}/{endpoint}
 3. Select API Key from **Inbound Security** list.
    - **API key field name**: Enter name for API key field in the inbound request.
    - **API key location**: Select Request Headers or Query string/form body.
