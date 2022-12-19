@@ -13,5 +13,5 @@
   - [API Versioning](docs/publisher/api-versioning.md)
   - [API and APP Monitoring](docs/publisher/api-and-app-monitoring.md)
 - **General**
-  - [Trusted Certificate Authorities](docs/general/trusted-ca.md)
+  - [Trusted Certificate Authorities](docs/general/trusted-certificate-authorities.md)
   
