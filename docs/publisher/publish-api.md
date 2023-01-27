@@ -141,6 +141,12 @@ Guide to test your API with Verify_JWT.
 
 This policy **combined** both **Veryify_JWT** and **Generate_AWS_SigV4** as the authentication between gateway and publisher gateway.
 
+## Network routing from APEX Cloud to Publisher Server
+
+Internet Environment : "API Proxy" in Default method routing will be used for Bridging APIs, APEX Cloud internet APIs (other organisation APIs) and Proxy APIs (Publisher backend Server)
+
+Intranet Environment : "API Proxy" in Default method routing will be used for Proxy APIs (Publisher backend Server)
+
 ## API Method
 
 API Method display the list of method(s) and it provides build-in test to check if APIs is functioning as expected before publication.
