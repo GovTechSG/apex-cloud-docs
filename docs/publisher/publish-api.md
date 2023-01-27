@@ -143,9 +143,15 @@ This policy **combined** both **Veryify_JWT** and **Generate_AWS_SigV4** as the 
 
 ### Network routing from APEX Cloud to Publisher Server
 
-Internet Environment : "API Proxy" in Default method routing will be used for Bridging APIs, APEX Cloud internet APIs (other organisation APIs) and Proxy APIs (Publisher backend Server)
+**Internet Environment** : "API Proxy" in Default method routing will be used for Bridging APIs, APEX Cloud internet APIs (other organisation APIs) and Proxy APIs (Publisher backend Server)
 
-Intranet Environment : "API Proxy" in Default method routing will be used for Proxy APIs (Publisher backend Server)
+**Intranet Environment** : "API Proxy" in Default method routing will be used for Proxy APIs (Publisher backend Server)
+
+![apex_proxy](./image/publish-api/apex_proxy.jpg)
+
+**Intranet Environment** : "APEX_Routing" in Default method routing will be used for  bridging APIs Or APEX Cloud Intranet APIs (other organisation APIs)
+
+![apex_routing](./image/publish-api/apex_routing.jpg)
 
 ## API Method
 
