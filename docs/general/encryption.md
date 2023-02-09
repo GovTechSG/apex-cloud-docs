@@ -4,11 +4,7 @@
 
 - There is interest amongst the APEX core team and tenants into payload encryption.
 
-- APEX has decided to carry out a POC using an industry-standard end-to-end encryption method - JWE (JSON Web Encryption).
-
-- Information and sample code for the POC for JWE end-to-end encryption is proposed to be documented into the Publishers Doc of the Dev Portal as one of the recommended means for payload encryption.
-
-- The JWE process proposed leverages on the JWKS endpoint established in JWT Authentication (APEX Cloud), by publishing the public encryption key unto there. Hence the process of key exchange is not too dissimilar to that of TLS.
+- The JSON Web Encryption (JWE) proposed leverages on the JWKS endpoint established in JWT Authentication (APEX Cloud), by publishing the public encryption key unto there. Hence the process of key exchange is not too dissimilar to that of TLS.
 
 ## JWE Flow Diagram
 
