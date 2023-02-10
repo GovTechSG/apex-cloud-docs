@@ -6,7 +6,7 @@
 2. Click **New API** and select one of the following:
    - **Import Swagger API**: Import an API in Swagger (OpenAPI Specification) format.
    - **Import WADL API**: Import an API in Web Application Description Language (WADL) format.
-   - **Import WSDL API**: Import an API in Web Application Description Language (WADL) format from URL.
+   - **Import WSDL API**: Import an API in Web Services Description Language (WSDL) format from URL.
 
 ![import-dialog](./image/create-api/import-dialog.png)
 
