@@ -78,13 +78,15 @@ OAuth 2.1 status in both SANDBOX and PROD need to be updated as "inactive" befor
 
 ## Update JWKS endpoint or callbackURLs
 
-1. **Applications** tab > Select **Application** > Click **Edit Application**
+1. **Applications** tab > Select **Application** > Click **Edit Application**.
 2. View **Authentication** tab > **Oauth 2.1**
 3. Update **JWKS endpoint** or **callback URLs**.
 4. Click **Apply Changes**.
 
 ![Image](./image/oauth/update-oauth-info.png)
 
-5. If there are app createed in both SANDBOX and PROD, **select either "sandbox" or "prod"** > Update **JWKS endpoint** or **callback URLs** > Click **Apply Changes**
+5. If there are app createed in both SANDBOX and PROD, **select either "sandbox" or "prod"** > Update **JWKS endpoint** or **callback URLs** > Click **Apply Changes**.
+
+_Update: This feature will be available in end Feb 2023._
 
 ![Image](./image/oauth/update-oauth-info-toggle.png)
