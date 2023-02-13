@@ -53,6 +53,7 @@ Configuration of the outbound request settings between the API Gateway and the b
    - [No Authentication](#no-authentication)
    - [HTTP Basic authentication](#http-basic-authentication)
    - [API Key authentication](#api-key-authentication)
+   - [OAuth authentication](#oauth)
      ![outbound-advance](./image/publish-api/outbound-simple.jpg)
 4. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select the request policy when necessary.
    - [Generate_AWS_SigV4](#generate-aws-sigv4)
@@ -86,6 +87,25 @@ No authentication is performed between the API Gateway and the backend API.
 **API key**: Enter the API key.
 
 **Pass credentials as HTTP**: Select Header, Query string or Form of the API key in the outbound request.
+
+### OAuth
+
+This creates an outbound OAuth authentication with Microsoft Online OAuth service.
+
+**Provider Profile**: Select Microsoft Profile.
+
+Click on Advanced button on top right of the screen, a Per-Method Override drop down should appear at bottom of the window. Select your API method and click on Edit API Proxy.
+
+Add the following outbound parameters as Parameter Type: header, and add in their respective values obtained from the Microsoft OAuth server:
+
+- x_apex_tenantid
+- x_apex_scope
+- x_apex_clientid
+- x_apex_secret
+
+![microsoft-oauth-headers](./image/publish-api/microsoft-oauth-headers.png)
+
+This outbound authentication profile should add the respective Authorization Bearer Token obtained from Microsoft's OAuth server.
 
 ### Generate AWS SigV4
 
