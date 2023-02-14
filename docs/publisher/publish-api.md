@@ -92,7 +92,10 @@ No authentication is performed between the API Gateway and the backend API.
 
 This creates an outbound OAuth authentication with Microsoft Online OAuth service.
 
-**Provider Profile**: Select Microsoft Profile.
+**Provider Profile**: Select Microsoft Profile
+
+**Token Key**: Leave as ${authentication.subject.id}
+![microsoft-oauth-profile](./image/publish-api/microsoft-oauth-profile.png)
 
 Click on Advanced button on top right of the screen, a Per-Method Override drop down should appear at bottom of the window. Select your API method and click on Edit API Proxy.
 
