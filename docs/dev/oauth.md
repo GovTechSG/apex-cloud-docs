@@ -17,7 +17,7 @@
 
 4. Click **Submit**.
 
-5. Once application is onboarded successfully, the portal will be redirected back to the application page with respective ENV tag (e.g. DEV) in Oauth 2.1 section. The **login url (example)** are just demonstration on how the login url can be constructed with the supplied callbacks. Replace the scope and code_challenge respectively for your application.
+5. Once application is onboarded successfully, the portal will be redirected back to the application page with respective ENV tag (e.g. DEV) in Oauth 2.1 section. The **login url (example)** are just demonstration on how the login url can be constructed with the supplied callbacks. Replace the **scope** and **code_challenge** respectively for your application.
 
 ![Image](./image/oauth/onboarded-oauth.png)
 
