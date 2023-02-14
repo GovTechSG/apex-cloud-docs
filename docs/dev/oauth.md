@@ -17,7 +17,7 @@
 
 4. Click **Submit**.
 
-5. Once application is onboarded successfully, the portal will be redirected back to the application page with respective ENV tag (e.g. DEV) in Oauth 2.1 section. The **login url (example)** are just demonstration on how the login url can be constructed with the supplied callbacks. **It cannot be use for production**.
+5. Once application is onboarded successfully, the portal will be redirected back to the application page with respective ENV tag (e.g. DEV) in Oauth 2.1 section. The **login url (example)** are just demonstration on how the login url can be constructed with the supplied callbacks. Replace the scope and code_challenge respectively for your application.
 
 ![Image](./image/oauth/onboarded-oauth.png)
 
@@ -30,8 +30,6 @@ Once the application is onboarded to OAuth 2.1 successfully, portal disable the 
 3. Once the status become inactive, proceed to delete the application.
 
 ## (Sandbox) Onboard Application
-
-_Update: This feature will be available in end Feb 2023._
 
 SANDBOX is only available in PROD environment and the option will only be provided when onboarding to Oauth 2.1.
 
@@ -86,7 +84,5 @@ OAuth 2.1 status in both SANDBOX and PROD need to be updated as "inactive" befor
 ![Image](./image/oauth/update-oauth-info.png)
 
 5. If there are app createed in both SANDBOX and PROD, **select either "sandbox" or "prod"** > Update **JWKS endpoint** or **callback URLs** > Click **Apply Changes**.
-
-_Update: This feature will be available in end Feb 2023._
 
 ![Image](./image/oauth/update-oauth-info-toggle.png)
