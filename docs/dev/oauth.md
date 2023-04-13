@@ -1,6 +1,7 @@
 # Oauth 2.1
 
 ## Onboard Application
+This is only applicable to API Developer Portal (Non-Government User)
 
 1. **Applications** tab > Select **Application**.
 

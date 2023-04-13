@@ -8,6 +8,7 @@
   - [Introduction](docs/publisher/introduction.md)
   - [Create API](docs/publisher/create-api.md)
   - [Publish API](docs/publisher/publish-api.md)
+  - [Update API](docs/publisher/update-api.md)
   - [Bridging API](docs/publisher/bridging-apis.md)
   - [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
   - [Making API discoverable](docs/publisher/making-api-discoverable)
@@ -16,3 +17,8 @@
 - **General**
   - [Trusted Certificate Authorities](docs/general/trusted-certificate-authorities.md)
   - [Encryption](docs/general/encryption.md)
+- **FAQ**
+  - [(API Manager Portal) Cannot find APIs/APPs](docs/faq/cannot-find-api-app.md)
+  - [(API Manager Portal) As a consumer, how to request access to API](docs/faq/request-access-to-api.md)
+  - [(API Manager Portal) As a publisher, I am not able to edit the API](docs/faq/cannot-edit-api.md)
+
