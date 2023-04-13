@@ -11,6 +11,7 @@
   - [Update API](docs/publisher/update-api.md)
   - [Bridging API](docs/publisher/bridging-apis.md)
   - [Manage Access To APIs](docs/publisher/manage-access-to-apis.md)
+  - [Making API discoverable](docs/publisher/making-api-discoverable)
   - [API Versioning](docs/publisher/api-versioning.md)
   - [API and APP Monitoring](docs/publisher/api-and-app-monitoring.md)
 - **General**
