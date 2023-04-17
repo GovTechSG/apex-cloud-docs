@@ -20,7 +20,7 @@
 - **Monitoring**
   - [View monitoring dashboards](docs/monitoring/dashboards.md)
   - [Real-time](docs/monitoring/real-time.md)
-  - [Quarterly](docs/monitoring/quarterly-and-yearly.md)
+  - [Quarterly and Yearly](docs/monitoring/quarterly-and-yearly.md)
 - **FAQ**
   - [(API Manager Portal) Cannot find APIs/APPs](docs/faq/cannot-find-api-app.md)
   - [(API Manager Portal) As a consumer, how to request access to API](docs/faq/request-access-to-api.md)
