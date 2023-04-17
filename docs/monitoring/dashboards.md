@@ -1,8 +1,33 @@
-# Monitoring and Logs Dashboards
+# Monitoring and logs dashboards
 
-APEX Cloud provides 
+APEX Cloud provides the Elastic ELK using the [StackOps](https://docs.developer.tech.gov.sg/docs/stackops-overview/) monitoring tool. ELK  includes pre-made dashboards for reporting and debugging issues.
 
-https://docs.developer.tech.gov.sg/docs/stackops-overview/
+You can use these dashboards to:
+- Monitor API request metrics over different time ranges.
+- Track and monitor trace logs
+- Monitor application performance and
+- Provide operational transparency for effective incident response
 
-- APEX Cloud offers ELK stack (through StackOps) with template dashboards for reporting
-- ELK comes with comprehensive search to support tracing and debugging
+## View monitoring dashboards
+
+To view the dashboards, follow these steps:
+
+1. Access your StackOps account.
+
+    - Production: [go.gov.sg/apex-report](https://go.gov.sg/apex-report)
+    - Staging: [go.gov.sg/apex-report-stg](https://go.gov.sg/apex-report-stg)
+2. Log in with [TechPass](https://docs.developer.tech.gov.sg/docs/apex-cloud-onboarding/docs/techpass). The Elastic Cloud dashboard is displayed.
+
+3. From the Spaces menu, select your project space.
+
+4. From the main menu, go to the Analytics category and click **Dashboard**. A list of available dashboards are displayed in the Dashboards page.
+
+    ![Viewing dashboards](/docs/monitoring/image/Dashboards_intro.gif)
+
+5. From the list of dashboards, select any of the following monitoring  dashboards.
+
+   - API-Requests Real-Time
+   - API-Requests Quarterly
+   - API-Requests Yearly
+
+**Note:** Aside from the monitoring dashboards, you can also view the Traffic Trace dashboard to troubleshoot API issues. For more information, refer to the [APEX Cloud Troubleshooting Guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/).
