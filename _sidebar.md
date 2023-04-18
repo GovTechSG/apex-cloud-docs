@@ -18,7 +18,7 @@
   - [Trusted Certificate Authorities](docs/general/trusted-certificate-authorities.md)
   - [Encryption](docs/general/encryption.md)
 - **Monitoring**
-  - [View monitoring dashboards](docs/monitoring/dashboards.md)
+  - [Monitoring dashboards](docs/monitoring/dashboards.md)
   - [Real-time](docs/monitoring/real-time.md)
   - [Quarterly and Yearly](docs/monitoring/quarterly-and-yearly.md)
 - **FAQ**
