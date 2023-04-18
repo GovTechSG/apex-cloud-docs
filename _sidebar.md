@@ -17,8 +17,10 @@
 - **General**
   - [Trusted Certificate Authorities](docs/general/trusted-certificate-authorities.md)
   - [Encryption](docs/general/encryption.md)
-- **FAQ**
-  - [(API Manager Portal) Cannot find APIs/APPs](docs/faq/cannot-find-api-app.md)
-  - [(API Manager Portal) As a consumer, how to request access to API](docs/faq/request-access-to-api.md)
-  - [(API Manager Portal) As a publisher, I am not able to edit the API](docs/faq/cannot-edit-api.md)
+- **FAQs**
+  - [API Manager Portal](docs/faq/index.md)
+    - [Cannot find APIs/APPs](docs/faq/cannot-find-api-app.md)
+    - [How to request access to API](docs/faq/request-access-to-api.md)
+    - [Unable to edit the API](docs/faq/cannot-edit-api.md)
+    - [Missing customized headers](docs/faq/my-customized-headers-are-missing)
 
