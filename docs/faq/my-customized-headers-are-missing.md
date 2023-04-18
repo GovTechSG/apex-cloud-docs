@@ -1,4 +1,4 @@
-# (API Manager Portal) I noticed that my customized headers are missing after calling APEX Cloud
+# I noticed that my customized headers are missing after calling APEX Cloud
 
 API calls to APEX Cloud must conform to the regular expression `[-A-Za-z0-9]+` for any HTTP header names. HTTP Headers with names that do not conform to the expression `[-A-Za-z0-9]+` will be considered as invalid HTTP headers and will be dropped, in accordance to IM8 Cloud Security Section Para 1.7 S6.
 
