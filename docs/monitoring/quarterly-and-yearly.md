@@ -4,8 +4,8 @@ The Quarterly and Yearly dashboards provide a less granular, long-term overview 
 
 ![quarterly and time dashboard](/docs/monitoring/image/quarterly.gif)
 
-- For the Quarterly dashboard, the default time range is set to the **last 90 days**.
-- For the Yearly dashboard, the default time range is set to the last **1 year**.
+For the Quarterly dashboard, the default time range is set to the **last 90 days**.
+For the Yearly dashboard, the default time range is set to the last **1 year**.
 
 **Note:** Data appears with a delay of 3 hours.
 

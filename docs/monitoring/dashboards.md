@@ -8,7 +8,7 @@ You can use these dashboards to:
 - Monitor application performance and
 - Provide operational transparency for effective incident response
 
-## View monitoring dashboards
+## View dashboards
 
 To view the dashboards, follow these steps:
 
@@ -30,4 +30,6 @@ To view the dashboards, follow these steps:
    - API-Requests Quarterly
    - API-Requests Yearly
 
-**Note:** Aside from the monitoring dashboards, you can also view the Traffic Trace dashboard to troubleshoot API issues. For more information, refer to the [APEX Cloud Troubleshooting Guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/).
+   **Note:** You can use the search functionality to filter the list of  dashboards.
+
+Aside from the monitoring dashboards, you can also view the Traffic Trace dashboard to troubleshoot API issues. For more information, refer to the [APEX Cloud Troubleshooting Guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/).
