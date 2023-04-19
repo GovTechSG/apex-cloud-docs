@@ -32,4 +32,8 @@ To view the dashboards, follow these steps:
 
    **Note:** You can use the search functionality to filter the list of  dashboards.
 
-Aside from the monitoring dashboards, you can also view the Traffic Trace dashboard to troubleshoot API issues. For more information, refer to the [APEX Cloud Troubleshooting Guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/).
+See the sections below to know more about these dashboards.
+- [API-Requests Real-Time](https://docs.developer.tech.gov.sg/docs/apex-cloud-user-guide/docs/monitoring/real-time)
+- [API-Requests Quarterly and Yearly](https://docs.developer.tech.gov.sg/docs/apex-cloud-user-guide/docs/monitoring/quarterly-and-yearly)
+
+Aside from the monitoring dashboards, you can also view and use the Traffic Trace dashboard to troubleshoot API issues. For more information, refer to the [APEX Cloud Troubleshooting Guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/).
