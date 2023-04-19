@@ -17,10 +17,13 @@
 - **General**
   - [Trusted Certificate Authorities](docs/general/trusted-certificate-authorities.md)
   - [Encryption](docs/general/encryption.md)
+- **Monitoring**
+  - [Monitoring dashboards](docs/monitoring/dashboards.md)
+  - [Real-time](docs/monitoring/real-time.md)
+  - [Quarterly and Yearly](docs/monitoring/quarterly-and-yearly.md)
 - **FAQs**
   - [API Manager Portal](docs/faq/index.md)
     - [Cannot find APIs/APPs](docs/faq/cannot-find-api-app.md)
     - [How to request access to API](docs/faq/request-access-to-api.md)
     - [Unable to edit the API](docs/faq/cannot-edit-api.md)
     - [Missing customized headers](docs/faq/my-customized-headers-are-missing)
-
