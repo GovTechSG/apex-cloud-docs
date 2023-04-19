@@ -9,7 +9,7 @@ For the Yearly dashboard, the default time range is set to the last **1 year**.
 
 **Note:** Data appears with a delay of 3 hours.
 
-These dashboards includes the following panels:
+These dashboards include the following panels:
 - Top 10 API Organisations
 - Top 10 Applications
 - Request status
