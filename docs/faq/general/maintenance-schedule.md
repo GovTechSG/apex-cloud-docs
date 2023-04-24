@@ -1,4 +1,4 @@
-# (Maintenance) Cannot find APIs/APPs
+# (Maintenance) APEX Cloud Scheduled Maintenance
 
 As part of our efforts to constantly enhance our system, we will be conducting regular maintenance and upgrade to the system as shown below. Where necessary, APEX Cloud team may schedule additional maintenance activities and subscribers will be notified via email.
 
