@@ -9,4 +9,4 @@ Please ensure that you are managing the APIs or APPs at the correct environment/
 
 Once logged into the desired APEX Cloud API Manager Portal, please switch to the correct Organisation to view/manage the APIs or APPs.
 
-![Image](../image/docs-home-chng-org.png)
+![Image](./image/docs-home-chng-org.png)

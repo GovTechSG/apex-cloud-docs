@@ -2,14 +2,14 @@
 
 The Real-time dashboard helps you monitor the status of your API requests in real time. It includes information on API status, performance, and transaction history.
 
-![real-time dashboard](/docs/monitoring/image/real-time.gif)
+![real-time dashboard](./image/real-time.gif)
 
 You can also drill down deeper into specific data within the panels, apply additional filters and refine the information displayed.
 
 This dashboard includes the following panels:
-- Top 5 API Organisations 
+- Top 5 API Organisations
 - Top 10 Methods by # of Transactions
-- Transaction Status 
+- Transaction Status
 - Gateway Selector
 - API-Transaction History
 - API-Status

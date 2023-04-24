@@ -22,7 +22,7 @@ To view the dashboards, follow these steps:
 
 4. From the main menu, go to the Analytics category and click **Dashboard**. A list of available dashboards are displayed in the Dashboards page.
 
-    ![Viewing dashboards](/docs/monitoring/image/Dashboards_intro.gif)
+    ![Viewing dashboards](./image/Dashboards_intro.gif)
 
 5. From the list of dashboards, select any of the following monitoring  dashboards.
 

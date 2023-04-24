@@ -2,7 +2,7 @@
 
 The Quarterly and Yearly dashboards provide a less granular, long-term overview of API requests. 
 
-![quarterly and time dashboard](/docs/monitoring/image/quarterly.gif)
+![quarterly and time dashboard](./image/quarterly.gif)
 
 For the Quarterly dashboard, the default time range is set to the **last 90 days**.
 For the Yearly dashboard, the default time range is set to the last **1 year**.
