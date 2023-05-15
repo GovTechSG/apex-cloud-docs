@@ -14,3 +14,20 @@ It is not possible to make any changes to an API in published state. What we rec
 A pop up will appear to select the newly created API to upgrade original API to.
 
 ![backend-api](./image/update-api/upgrade-access-to-newer-api-2.png)
+
+## Update API using export and import method
+
+For minor API updates, such as updating the API description while keeping the same parameters, you can export your existing API and import it as a new version.
+
+1. Export API as a .dat file by doing the following steps:
+
+    a. Click **API > Frontend API view > Select API** in API Manager.<br>
+    b. Click **Manage Selected > Export**.<br>
+    c. In the Export API dialog, enter the password used for encryption, then click **OK**.
+
+2. Import the exported API. Follow the [Import API via .dat file](https://docs.developer.tech.gov.sg/docs/apex-cloud-user-guide/docs/publisher/publish-api?id=import-api-via-dat-file) steps.
+
+3. Click API > Backend API view > Select API in API Manager.
+Click Manage Selected and select any of the following
+
+4. Upgrade access of original API to new API by selecting the original API > Manage selected > Upgrade access to newer API
