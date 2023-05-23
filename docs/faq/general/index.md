@@ -1,4 +1,4 @@
 # Frequently Asked Questions
 
 ## General
-- [When will APEX Cloud under go planned maintenance](docs/faq/general/maintenance-schedule.md)
+- [When will APEX Cloud undergo planned maintenance?](docs/faq/general/maintenance-schedule.md)

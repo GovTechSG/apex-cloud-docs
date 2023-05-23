@@ -24,8 +24,3 @@
 - **FAQs**
   - [General](docs/faq/general/index.md)
     - [Scheduled maintenance](docs/faq/general/maintenance-schedule.md)
-  - [API Manager Portal](docs/faq/portal/index.md)
-    - [Cannot find APIs/APPs](docs/faq/portal/cannot-find-api-app.md)
-    - [How to request access to API](docs/faq/portal/request-access-to-api.md)
-    - [Unable to edit the API](docs/faq/portal/cannot-edit-api.md)
-    - [Missing customized headers](docs/faq/portal/my-customized-headers-are-missing)
