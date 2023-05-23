@@ -1,5 +1,7 @@
 # Frequently Asked Questions
 
+?> **Important:** The content on this page has been moved to the [APEX Cloud Troubleshooting Guide](https://docs.developer.tech.gov.sg/docs/apex-cloud-troubleshooting-guide/). Thank you.
+
 ## API Manager Portal
 
 - [Cannot find APIs/APPs](docs/faq/portal/cannot-find-api-app.md)
