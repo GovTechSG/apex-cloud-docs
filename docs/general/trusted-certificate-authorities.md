@@ -10,3 +10,4 @@
 - [NeTrust](https://www.netrust.net)
 - [Thawte](https://www.thawte.com)
 - [SGCore (Intranet only)](https://sgcore-portal.sgnet.gov.sg/indexSR.html)
+- [Amazon](https://www.amazontrust.com/repository/)
