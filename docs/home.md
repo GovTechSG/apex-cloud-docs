@@ -16,4 +16,6 @@ When accessing APEX Cloud via API Manager Portal please ensure that you are mana
 
 Once logged into the desired APEX Cloud API Manager Portal, please switch to the correct Organisation to view/manage the APIs or APPs.
 
-![Image](./image/docs-home-chng-org.png)
+<!-- 
+![Image](../image/docs-home-chng-org.png)
+-->

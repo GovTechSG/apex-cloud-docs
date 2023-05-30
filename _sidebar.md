@@ -2,7 +2,8 @@
   - [Welcome](docs/home.md)
 - **Developers**
   - [Introduction](docs/dev/introduction.md)
-  - [Creating Applications](docs/dev/applications.md)
+  - [Browse APIs](/docs/dev/browse-apis.md)
+  - [Create Applications](docs/dev/applications.md)
   - [Onboard to OAuth2.1](docs/dev/oauth.md)
 - **Publishers**
   - [Introduction](docs/publisher/introduction.md)
