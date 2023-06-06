@@ -1,21 +1,27 @@
-# APEX Cloud Documentation Portal
+# APEX Cloud User Guide
 
-This website contains the entire documentation set for both developers (consumers) and API publishers.
+## Overview
 
-Use the navigation menu on the left to browse the documentation. You can also search for specific terms using the search field.
+Welcome to the Cloud File Transfer (CFT) User Guide documentation.
 
+**Audience**
 
-## API Manager Portal
-Public officers will use the API Manager Portal to access APEX Cloud.
+The APEX Cloud User Guide is intended for API Publishers and Developers (Consumers) who want to start using APEX Cloud to create, manage, and consume APIs.
 
-When accessing APEX Cloud via API Manager Portal please ensure that you are managing the APIs or APPs at the correct environment/zone.
-- [Staging (external): https://go.gov.sg/apex-stg](https://go.gov.sg/apex-stg)
-- [Staging (internal): https://go.gov.sg/apex-int-stg](https://go.gov.sg/apex-int-stg)
-- [Production (external): https://go.gov.sg/apex](https://go.gov.sg/apex)
-- [Production (internal): https://go.gov.sg/apex-int](https://go.gov.sg/apex-int)
+## Quick links
 
-Once logged into the desired APEX Cloud API Manager Portal, please switch to the correct Organisation to view/manage the APIs or APPs.
+### API Manager Portal
 
-<!-- 
-![Image](../image/docs-home-chng-org.png)
--->
+Public Officers use the API Manager Portal to create and manage APIs and API access. Log in to the API Manager Portal environments using your TechPass account.
+
+- **Staging (Internet):** [https://go.gov.sg/apex-stg](https://go.gov.sg/apex-stg)
+- **Staging (Intranet):** [https://go.gov.sg/apex-int-stg](https://go.gov.sg/apex-int-stg)
+- **Production (Internet):** [https://go.gov.sg/apex](https://go.gov.sg/apex)
+- **Production (Intranet):** [https://go.gov.sg/apex-int](https://go.gov.sg/apex-int)
+
+> **Note:** Once logged in, ensure that you switch to the correct **Organization** to view and manage the APIs or applications available to your organization.
+
+### API Developer Portal
+
+Non-Public Officers use the API Developer Portal to browse available APIs in APEX Cloud and create applications to consume these APIs. Log in to the [API Developer Portal](https://www.api.developer.tech.gov.sg
+) using your CorpPass account.

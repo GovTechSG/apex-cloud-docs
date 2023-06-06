@@ -1,5 +1,5 @@
 - **Home**
-  - [Welcome](docs/home.md)
+  - [Overview](docs/home.md)
 - **Developers**
   - [Introduction](docs/dev/introduction.md)
   - [Browse APIs](/docs/dev/browse-api.md)
