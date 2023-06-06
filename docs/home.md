@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Cloud File Transfer (CFT) User Guide documentation.
+Welcome to the APEX Cloud User Guide documentation.
 
 **Audience**
 
@@ -14,10 +14,10 @@ The APEX Cloud User Guide is intended for API Publishers and Developers (Consume
 
 Public Officers use the API Manager Portal to create and manage APIs and API access. Log in to the API Manager Portal environments using your TechPass account.
 
-- **Staging (Internet):** [https://go.gov.sg/apex-stg](https://go.gov.sg/apex-stg)
-- **Staging (Intranet):** [https://go.gov.sg/apex-int-stg](https://go.gov.sg/apex-int-stg)
-- **Production (Internet):** [https://go.gov.sg/apex](https://go.gov.sg/apex)
-- **Production (Intranet):** [https://go.gov.sg/apex-int](https://go.gov.sg/apex-int)
+- Staging (Internet): [https://go.gov.sg/apex-stg](https://go.gov.sg/apex-stg)
+- Staging (Intranet): [https://go.gov.sg/apex-int-stg](https://go.gov.sg/apex-int-stg)
+- Production (Internet): [https://go.gov.sg/apex](https://go.gov.sg/apex)
+- Production (Intranet): [https://go.gov.sg/apex-int](https://go.gov.sg/apex-int)
 
 > **Note:** Once logged in, ensure that you switch to the correct **Organization** to view and manage the APIs or applications available to your organization.
 
