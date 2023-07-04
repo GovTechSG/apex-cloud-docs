@@ -181,7 +181,7 @@ This policy **combined** both **Veryify_JWT** and **Generate_AWS_SigV4** as the 
 API Method display the list of method(s) and it provides build-in test to check if APIs is functioning as expected before publication.
 
 1. Click **API > Frontend API view**.
-2. Select**API** > click **API Method** tab.
+2. Select **API** > click **API Method** tab.
 3. Click **Try Method** to perform the test for any endpoint(s) specified.
 
 ?> **Note:** The **Try method** option is only applicable to APEX Cloud **Internet** endpoint(s) that are specified in the API Manager Internet.  For APEX Cloud **Intranet** endpoint(s), we recommend testing using programming tools such as Curl, Postman, or  SOAP UI from a server with connectivity to APEX Cloud since the **Try method** option will always return a false negative `0` status for Intranet endpoint(s).
