@@ -184,6 +184,8 @@ API Method display the list of method(s) and it provides build-in test to check 
 2. Select**API** > click **API Method** tab.
 3. Click **Try Method** to perform the test for any endpoint(s) specified.
 
+?> **Note:** The **Try method** option is only applicable to APEX Cloud **Internet** endpoint(s) that are specified in the API Manager Internet.  For APEX Cloud **Intranet** endpoint(s), we recommend testing using programming tools such as Curl, Postman, or  SOAP UI from a server with connectivity to APEX Cloud since the **Try method** option will always return a false negative `0` status for Intranet endpoint(s).
+
 ![method-tab](./image/publish-api/method-tab.jpg)
 
 Alternatively, testing can also be done in API Catalog.
