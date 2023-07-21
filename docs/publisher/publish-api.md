@@ -195,6 +195,30 @@ Alternatively, testing can also be done in API Catalog.
 3. **Add authentication** required as specified.
 4. Click **Try it** to perform the test.
 
+## Trusted Certificates
+
+Trusted Certificates display the set of certificates to be used for verification of the backend endpoint (the Publisher's API, except for bridging API) during TLS handshake. CA certificates should be automatically uploaded during the setup of the Frontend API. In the event, that the desired root CA certificate which corresponds to the backend API is not listed, you may proceed with the below steps to upload the root CA certificate.
+
+Steps
+
+1. Click **Trusted Certificates** tab.
+2. Click on the **(+) sign**.
+3. Select the desired certificate to upload.
+   
+   ![trust-cert](./image/publish-api/trust-cert.png)
+4. Ensure that the **use for outbound** toggle button is checked.
+5. Click on **import** to import the certificate.
+
+> Bridging API
+>
+> target endpoint is APEX Cloud INTRANET ZONE, please use SGCORE root CA cert
+(SOEASYRCA-G1) & AWS root CA certs (All AWS root CA cert)
+>
+> target endpoint is APEX Cloud INTERNET ZONE use Sectigo root CA cert (USERTrust RSA Certification Authority)
+
+
+
+
 ## Publish API
 
 1. Click **API > Frontend API view > Select API** in API Manager.
