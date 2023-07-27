@@ -53,6 +53,7 @@ Configuration of the outbound request settings between the API Gateway and the b
    - [No Authentication](#no-authentication)
    - [HTTP Basic authentication](#http-basic-authentication)
    - [API Key authentication](#api-key-authentication)
+   - [SSL authentication](#ssl-authentication)
    - [OAuth authentication](#oauth)
      ![outbound-advance](./image/publish-api/outbound-simple.jpg)
 4. Click the **Advanced** button on the right to configure settings such as request or response processing, routing, and per-API method overrides. Select the request policy when necessary.
@@ -87,6 +88,16 @@ No authentication is performed between the API Gateway and the backend API.
 **API key**: Enter the API key.
 
 **Pass credentials as HTTP**: Select Header, Query string or Form of the API key in the outbound request.
+
+### SSL authentication
+
+This certificate will be used as the client certificate for communication with the publisher.
+
+**PFX/P12 file**: Select the desired certificate file.
+
+**PFX/P12 password**: If certificate is password protected, please enter the password.
+
+**Trust all certificates in chain**: Select whether to trust all the CA certificates in the certificate chain. If this is not selected, only the top-level CA is trusted. This setting is selected by default.
 
 ### OAuth
 
