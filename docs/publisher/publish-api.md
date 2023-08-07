@@ -208,24 +208,29 @@ Alternatively, testing can also be done in API Catalog.
 
 ## Trusted Certificates
 
-Trusted Certificates display the set of certificates to be used for verification of the backend endpoint (the Publisher's API, except for bridging API) during TLS handshake. CA certificates should be automatically uploaded during the setup of the Frontend API. In the event, that the desired root CA certificate which corresponds to the backend API is not listed, you may proceed with the below steps to upload the root CA certificate.
+Trusted Certificates display the set of certificates to be used for verification of the backend endpoint (the Publisher's API, except for bridging API) during TLS handshake. CA certificates should be automatically uploaded during the setup of the Frontend API. 
 
-Steps
+**Note:** For more information, refer to [List of Trusted Certificate Authorities](/docs/general/trusted-certificate-authorities.md).
 
+If the desired root CA certificate corresponding to the backend API  is not listed, you may proceed with the below steps to upload the root CA certificate.
 1. Click **Trusted Certificates** tab.
-2. Click on the **(+) sign**.
+2. Click on the (**+**) sign.
 3. Select the desired certificate to upload.
    
    ![trust-cert](./image/publish-api/trust-cert.png)
-4. Ensure that the **use for outbound** toggle button is checked.
-5. Click on **import** to import the certificate.
+4. Ensure that the **Use for outbound** toggle button is checked.
+5. Click **Import** to import the certificate.
 
-> Bridging API
->
-> target endpoint is APEX Cloud INTRANET ZONE, please use SGCORE root CA cert
-(SOEASYRCA-G1) & AWS root CA certs (All AWS root CA cert)
->
-> target endpoint is APEX Cloud INTERNET ZONE use Sectigo root CA cert (USERTrust RSA Certification Authority)
+### Bridging APIs
+
+If the target endpoint is in the APEX Cloud Intranet zone, use: 
+
+- SGCORE Root CA - **SOEASYRCA-G1**
+- AWS Root CA certs -  **All AWS Root CA**
+
+If the target endpoint is in APEX Cloud Internet zone, use:
+
+- Sectigo Root CA - **USERTrust RSA Certification Authority**
 
 
 
@@ -236,6 +241,9 @@ Steps
 2. Click **Manage Selected** and select **Publish**.
    ![publish-api](./image/publish-api/publish-api.jpg)
 3. Enter **Virtual Host** and click **Publish**.
+
+   !> **Note:** To publish this API in a testing or Sandbox environment for non-government developers, you can enter the following URL in the Virtual Host field: **sandbox.api.gov.sg**. Follow the steps to [making your Sandbox API discoverable](/docs/publisher/making-api-discoverable.md).
+
 4. Published API will be able to access via https://{virtual-host}/{prefix-path}/{method-path}.
 
 ## Manage Frontend API Lifecycle
