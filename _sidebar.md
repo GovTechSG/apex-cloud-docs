@@ -23,6 +23,8 @@
   - [Monitoring dashboards](docs/monitoring/dashboards.md)
   - [Real-time](docs/monitoring/real-time.md)
   - [Quarterly and Yearly](docs/monitoring/quarterly-and-yearly.md)
+- **Training**
+  - [Postman Scripts](docs/training/postman.md)
 - **FAQs**
   - [General](docs/faq/general/index.md)
     - [Scheduled maintenance](docs/faq/general/maintenance-schedule.md)
