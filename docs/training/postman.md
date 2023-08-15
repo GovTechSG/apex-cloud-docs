@@ -19,3 +19,12 @@ The downloaded zip file will contain the following JSON files:
 **Step 2:** Verify that both files have been imported into Postman
 
 ![Verifying the Postman Scripts](./image/postman-vid2.gif)
+
+## Setting up the Environment file
+
+a. **jwks:** Use the private key (with 'd' coordinates). Can input one or multiple jwk.<br>
+b. **api_key:** For cross-zone API call, need to enter 2 API keys ('apiKey1','apiKey2').<br>
+c. **keyId:** For choosing which jwk to use in jwks variable. It is the 'kid' claim in the jwk.<br>
+d. **DEBUG:** Set to 'true' to log more info in the Postman console for each API call.
+
+![Setting Environment File](./image/postman-vid3.gif)
