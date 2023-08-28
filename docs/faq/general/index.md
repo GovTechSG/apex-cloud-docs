@@ -8,5 +8,5 @@ You can find troubleshooting steps in the [APEX Cloud Troubleshooting Guide](htt
 
 **What is APEX Cloud's maintenance schedule?**
 
-You can check APEX Cloud's system maintenance and upgrade schedule [here]().
+You can check APEX Cloud's system maintenance and upgrade schedule [here](https://docs.developer.tech.gov.sg/docs/apex-cloud-notices/?id=maintenance-schedule-%f0%9f%94%a7).
 
