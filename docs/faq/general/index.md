@@ -1,4 +1,4 @@
-# Support
+# Support FAQs
 
 **I am running into some issues. What do I do?**
 
